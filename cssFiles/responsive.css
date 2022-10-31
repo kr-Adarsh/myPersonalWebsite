@@ -1,0 +1,38 @@
+@media only screen and (max-width:1042px){
+    .navList{
+        flex-direction: column;
+    }
+    .navBar{
+        flex-direction: column;
+        height:400px;
+        transition:all 0.5s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+        flex-direction: column;
+    }
+    #search{
+        width:100%;
+    }
+    .burger{
+        display:block;
+    }
+    .h-nav-resp{
+        height:50px;
+    }
+    .v-class-resp{
+        opacity:0;
+    }
+    .main-box{
+        flex-direction: column-reverse;
+        
+    }
+    .section{
+        flex-direction: column-reverse;
+        height:auto;
+    }
+    .center-align{
+        padding:2px;
+        font-size: 13px;
+    }
+}
